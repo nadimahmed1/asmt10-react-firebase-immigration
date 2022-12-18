@@ -6,6 +6,7 @@ import './Pages/Header/Header.css'
 import Home1 from './Pages/Main/Home1/Home1';
 import Login from './Pages/Main/Login/Login';
 import Register from './Pages/Main/Register/Register';
+import CheckOut from './Pages/Main/Services/Service/CheckOut/CheckOut';
 import Services from './Pages/Main/Services/Services';
 import RequireAuth from './Pages/RequireAuth/RequireAuth';
 import Footer from './Pages/Share/Footer/Footer';
@@ -23,6 +24,11 @@ function App() {
         <Route path='/services' element={
           <RequireAuth>
             <Services></Services>
+          </RequireAuth>
+        }></Route>
+        <Route path='/checkout' element={
+          <RequireAuth>
+            <CheckOut></CheckOut>
           </RequireAuth>
         }></Route>
       </Routes>
