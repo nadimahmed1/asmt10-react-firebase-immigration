@@ -9,6 +9,8 @@
     margin: 0 auto;
 }
 
+
+
 .button {
     background-color: cadetblue;
     color: black;
@@ -16,4 +18,7 @@
     font-family: fantasy;
     border-radius: 5px;
     text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
