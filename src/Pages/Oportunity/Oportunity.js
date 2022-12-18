@@ -3,7 +3,7 @@ import './Opportunity.css'
 
 const Oportunity = () => {
     return (
-        <div className='opportunity'>
+        <div className='opportunity text-center border shadow-lg p-5 mt-5'>
             <h1 className='text-info '>Immigration Service From Expert Agent</h1>
 
             <h6>Aenean sed sapien venenatis, blandit nulla in, lacinia risus. Suspendisse potenti.</h6>

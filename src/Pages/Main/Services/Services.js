@@ -14,13 +14,17 @@ const Services = () => {
         { id: 3, city: 'NewYork', img: usa, description: 'NewYork is very nice city in the world.. some people has come to NewYork' },
     ]
     return (
+
         <div className='services-container'>
+
+
             {
                 services.map(service => <Service
                     key={service.id}
                     service={service}
                 ></Service>)
             }
+
 
         </div>
     );

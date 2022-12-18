@@ -6,7 +6,9 @@ import './Service.css'
 const Service = ({ service }) => {
     const { city, id, description, img } = service;
     return (
-        <div style={{ width: '100%' }} className='service'>
+        <div style={{ width: '100%' }}
+            className='service shadow-lg'>
+
             <Card className='card' style={{ width: '18rem' }}>
                 <Card.Img style={{ width: '100%' }} variant="top" src={img} />
                 <Card.Body>
@@ -17,6 +19,7 @@ const Service = ({ service }) => {
                     <Link to={'/checkout'} className='button'>Checking...</Link>
                 </Card.Body>
             </Card>
+
 
         </div>
     );

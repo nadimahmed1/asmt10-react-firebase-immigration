@@ -10,6 +10,8 @@ const Home1 = () => {
         <div className='home1'>
             <Banner></Banner>
             <br />
+            <h1 className='text-center text'>Choose Your City</h1>
+            <br />
             <Services></Services>
             <br />
             <Oportunity></Oportunity>
